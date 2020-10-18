@@ -919,6 +919,11 @@ color: #757575;
   cursor: pointer;
 }
 
+.modal-form-message:hover::placeholder,
+.modal-form-message:focus::placeholder {
+color: var(--animation-theme-color);
+}
+
 .modal-form-input:focus + .modal-form-svg-icon,
 .modal-form-input:hover + .modal-form-svg-icon {
   fill: #2196F3;
